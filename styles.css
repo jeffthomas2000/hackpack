@@ -1,0 +1,62 @@
+body {
+    font-family: "Open Sans", serif;
+    margin: 13px;
+}
+#menu {
+	list-style-type: none;
+	margin: 0;
+	padding: 1px;
+	overflow: hidden;
+	background-color: #333333;
+	margin-top: 15px;
+}
+#menu li {
+	float: left;
+}
+#menu li a {
+	display: block;
+	color: white;
+	padding: 15px 19px;
+	text-decoration: none;
+	text-align: center;
+}
+#menu li a:hover {
+    text-decoration: underline;
+}
+#content {
+    box-shadow: 0 4px 3px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding: 16px;
+    position: relative;
+    top: 14px;
+}
+.Card {
+    padding: 10px;
+    padding-bottom: 20px;
+}
+.Card hr {
+    position: fixed;
+    top: 0px;
+    width: 60%;
+}
+.Button {
+	background-color:#333333;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:17px;
+	padding:13px 13px;
+    text-decoration:none;
+}
+.Button:hover {
+    text-decoration: underline;
+}
+.Banner {
+    display: inline-block;
+    box-shadow: 0 4px 3px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding: 16px;
+    position: relative;
+    top: 14px;
+    width: 430px;
+    height: 70px;
+}
